@@ -4,6 +4,7 @@
 # How to use
 This script will show a 81-cell-caluclation sheet as below:
 ~~~
+$ python3 81-cell-calculation.py
 x/+ | 3 1 4 8 9 7 5 2 6
   2 |
   7 |
