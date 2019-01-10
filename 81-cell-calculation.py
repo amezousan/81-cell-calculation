@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import random
 import os
+import time
 
 # What to do?
 # Print out the following by arranging all the numbers randomly:
@@ -77,8 +78,16 @@ class CellCalculation:
             print("")
         print("")
 
-cellcalc = CellCalculation()
+    def output_seed(self, timestamp):
+        print("For your record:")
+        print("\"timestamp\",\"x-axis\",\"y-axis\",\"operation(*+)\",\"record(sec)\",\"mistake\"")
+        print("\"%s\",\"%s\",\"%s\",\"*+\",\"WriteYourRecordHere\",\"WriteYourMistakesHere\"" % (timestamp, (",").join(map(str, self.array_x)), (",").join(map(str, self.array_y))) )
+
+# Start time
+timestamp = int(time.time())
+cellcalc  = CellCalculation()
 cellcalc.display_problem()
 cellcalc.pause()
 cellcalc.display_answer("*")
 cellcalc.display_answer("+")
+cellcalc.output_seed(timestamp)
