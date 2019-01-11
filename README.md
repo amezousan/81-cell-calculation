@@ -21,12 +21,10 @@ You can write down all the numbers on a paper and calculate both "plus(+)" and "
 
 ## Criterion
 ### Cross
+### Plus
 Time | Comment
 ---  |---
 ~60s | This is super awesome! You must be soooooo good :)
 ~80s | This is pretty good. You can speed up more if you get used to it!
 ~100s| This is okay because you are a beginner. You can speed up more if you get used to it!
 ~120s| One more time!
-
-### Plus
-(N/A)
